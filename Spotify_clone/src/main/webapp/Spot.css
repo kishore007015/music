@@ -1,0 +1,149 @@
+/*.container {
+    width: 1260px !important;
+}*/
+
+
+.welCom {
+	font-size: 60px !important;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+
+.navbar-default {
+    background-color: #18c7d3 !important;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #333 !important;
+    background-color: #fff !important;
+}
+
+tr {
+    border: 1px solid;
+}
+
+td, th {
+    text-align: center;
+}
+
+thead {
+    background-color: #ddd;
+}
+
+.col-sm-1 {
+	width: 10% !important;
+}
+
+.col-sm-offset-1.col-sm-10 {
+    padding-left: 37px;
+}
+
+button.btn.btn-primary.addSong {
+    position: relative;
+    float: right;
+    top: -38px;
+}
+
+.form-horizontal .control-label {
+	text-align: unset !important;
+}
+
+
+.open-modal {
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s linear;
+}
+.open-modal:hover {
+  box-shadow: none;
+  background: rgba(255, 255, 255, 0.5);
+  border-color: #fff;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.modal.open {
+  display: flex;
+}
+.modal-container {
+  background-color: #fff;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+}
+.modal.open .modal-container {
+  animation: move 0.6s ease-out;
+}
+@keyframes move {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+.modal-content {
+}
+.modal-content > *:not(img) {
+  padding: 0 1rem;
+}
+.modal-content h2 {
+  margin: 1.5rem 0 0.6rem 0;
+}
+.modal-content p {
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+.modal-content a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  padding-bottom: 1rem;
+  display: inline-block;
+}
+.modal-content a:hover {
+  color: salmon;
+}
+
+.close-modal {
+  font-size: 3rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  transition: color 0.15s linear;
+}
+.close-modal:hover {
+  color: #f00;
+}
+
+.control-label {
+	padding-left: 40px !important;
+}
+
+.modalTit {
+    border-bottom: 1px solid;
+    margin-bottom: 45px !important;
+}
